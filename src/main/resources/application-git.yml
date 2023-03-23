@@ -1,0 +1,50 @@
+server:
+  port: 8080
+logging:
+  config: classpath:logback.xml
+  level:
+    yuren.work.boot: trace
+
+# 数据库地址
+datasource:
+  url: localhost:3306/campusforum
+
+spring:
+  datasource: # 数据库配置
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${datasource.url}?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+
+    username: root
+    password: ...
+    hikari:
+      maximum-pool-size: 10 # 最大连接池数
+      max-lifetime: 1770000
+  #邮箱验证码
+  mail:
+    host: smtp.qq.com     #默认平台服务地址无需更改
+    username: ...   #自己邮箱号
+    password: ...    #这是我们在刚刚开启POP3/SMTP服务时收到的授权码(如果忘了把服务重开一次!)
+    default-encoding: utf-8 #改编码格式
+    protocol: smtp
+    port: 25 #端口号
+    properties:
+      mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+  redis:
+    url: ...
+  mvc:
+    dispatch-options-request: true
+
+mybatis:
+  # 指定别名设置的包为所有entity
+  type-aliases-package: yuren.work.boot.pojo
+  configuration:
+    map-underscore-to-camel-case: true # 驼峰命名规范
+  mapper-locations: # mapper映射文件位置
+    - classpath:mapper/*.xml
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      update-strategy: ignored
+      insert-strategy: default
+

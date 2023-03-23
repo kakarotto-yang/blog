@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kakarotto.mapper.TmpTopicMapper">
+    <select id="loadTempAddTopic" resultType="TmpTopic">
+        SELECT * FROM tmptopic  where author = #{arg0}
+    </select>
+    <insert id="createTmpTopic">
+        insert into tmptopic(author)  values(#{arg0})
+    </insert>
+    <!--  保存编辑  -->
+    <update id="tmpSave">
+        update tmptopic set content = #{arg1} where author = #{arg0}
+    </update>
+
+    <update id="tmpClear">
+        update tmptopic set content = '' where author = #{arg0}
+    </update>
+</mapper>
+

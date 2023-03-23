@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kakarotto.mapper.BlogMapper">
+    <select id="getBlogMsg" resultType="BlogMsg">
+        select * from blogmsg
+    </select>
+    <update id="updateRunningDays">
+        update blogmsg set RunningDays = #{arg0}
+    </update>
+    <update id="updateviews">
+        update blogmsg set views = #{arg0}
+    </update>
+    <update id="updateEssayNum">
+        update blogmsg set essaynum = #{arg0}
+    </update>
+
+    <update id="updateCommentNum">
+        update blogmsg set commentnum = #{arg0}
+    </update>
+
+
+</mapper>
+

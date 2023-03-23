@@ -21,8 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
+CHANGELOG.md
 /target
 /src/test
-/src/main/resources/jdbc-dev.properties
+/src/main/resources/application-dev.yml
+/src/main/resources/application-pro.yml
 /src/main/webapp
+ToDo.md

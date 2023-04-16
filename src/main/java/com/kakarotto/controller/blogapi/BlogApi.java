@@ -1,21 +1,16 @@
-package com.kakarotto.controller;
+package com.kakarotto.controller.blogapi;
 
 import com.kakarotto.pojo.BlogMsg;
 import com.kakarotto.service.BlogService;
-
-import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.processing.SupportedAnnotationTypes;
-
 @RestController
-public class BlogController {
+@RequestMapping("/api")
+public class BlogApi {
     /**
      * 每天执行一次，每天晚上12点
      */

@@ -6,7 +6,7 @@
     <resultMap id="commentAndUserResultMap" type="Comment">
         <id column="id" property="id"></id>
         <id column="content" property="content"></id>
-        <id column="commentDate" property="commentDate"></id>
+        <id column="comment_date" property="commentDate"></id>
         <id column="author" property="author.id"></id>
         <id column="topic" property="topic.id"></id>
     </resultMap>
@@ -20,10 +20,10 @@
     </select>
 
     <insert id="addComment">
-        insert into comment(content,commentDate,topic,author) values(#{arg0},#{arg1},#{arg2},#{arg3})
+        insert into comment(content,comment_date,topic,author) values(#{arg0},#{arg1},#{arg2},#{arg3})
     </insert>
     <select id="getLatestComment" resultMap="commentAndUserResultMap">
-        SELECT comment.id, comment.content,comment.commentDate, comment.author,comment.topic FROM comment LEFT JOIN `topic` ON comment.topic=`topic`.id  where topic.author = #{arg0}    </select>
+        SELECT comment.id, comment.content,comment.comment_date, comment.author,comment.topic FROM comment LEFT JOIN `topic` ON comment.topic=`topic`.id  where topic.author = #{arg0}    </select>
 
     <update id="delComment">
         update comment set  del = '1' where id = #{arg0}

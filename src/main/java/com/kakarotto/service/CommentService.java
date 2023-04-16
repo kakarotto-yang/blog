@@ -12,4 +12,8 @@ public interface CommentService {
     void addComment(Comment comment);
     List<Comment> getLatestComment(Integer id);
     Integer delComment(Integer commentId);
+
+    List<Comment> getCommentByArticleId(int id);
+
+    void batchDeleteComment(List<Comment> commentList);
 }

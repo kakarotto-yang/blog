@@ -7,10 +7,11 @@ import java.util.List;
 
 @Data
 public class Comment {
-    private Integer id ;
-    private String content ;
-    private Date commentDate ;
-    private User author ; //M:1
-    private Topic topic ;   //1:1
-    private List<Reply> replyList;//1:m
+    private Integer id;         // 评论ID
+    private Integer userId;     // 评论用户ID
+    private Integer articleId;  // 评论文章ID
+    private Integer parentId;   // 父评论ID
+    private String content;     // 评论内容
+    private Date createTime;    // 创建时间
+    private Date updateTime;    // 更新时间
 }

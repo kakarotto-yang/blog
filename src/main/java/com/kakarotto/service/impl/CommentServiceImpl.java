@@ -41,5 +41,16 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper,Comment> imple
         return baseMapper.delComment(commentId);
     }
 
+    @Override
+    public List<Comment> getCommentByArticleId(int id) {
+        List<Comment> commentList = baseMapper.selectList(new QueryWrapper<Comment>().eq("article_id",id));
+        return commentList;
+    }
+
+    @Override
+    public void batchDeleteComment(List<Comment> commentList) {
+        baseMapper.deleteBatchIds(commentList);
+    }
+
 
 }

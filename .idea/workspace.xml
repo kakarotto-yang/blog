@@ -5,15 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4746e277-9d6d-4324-aec0-51acf4a1a59d" name="Changes" comment="博客项目">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/TopicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/mapper/TopicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/pojo/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/pojo/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/impl/TopicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakarotto/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/CommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/ReplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/ReplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/TopicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/TopicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kakarotto/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/Environment/apache-maven-3.6.1/maven-repo/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar!/com/google/common/util/concurrent/SmoothRateLimiter.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/Environment/apache-maven-3.6.1/maven-repo/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/ForwardingLock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/Environment/apache-maven-3.6.1/maven-repo/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://D:/Environment/apache-maven-3.6.1/maven-repo/com/google/guava/guava/28.2-jre/guava-28.2-jre.jar!/com/google/common/util/concurrent/SmoothRateLimiter.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://D:/Environment/apache-maven-3.6.1/maven-repo/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar!/com/google/common/util/concurrent/SmoothRateLimiter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/Environment/apache-maven-3.6.1/maven-repo/com/google/guava/guava/28.2-jre/guava-28.2-jre.jar!/com/google/common/util/concurrent/RateLimiter.class" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,7 +78,13 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2NOieMiopLHIbh2J64cm4Wbkdxf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,30 +98,129 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="D:/Environment/apache-maven-3.6.1/maven-repo/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\project\blog\src\main\resources" />
+      <recent name="E:\workspace\project\blog\src\main\java\com\kakarotto\common" />
       <recent name="E:\workspace\project\blog\src\main\java\com\kakarotto" />
+      <recent name="E:\workspace\project\blog\src\main\resources" />
       <recent name="E:\workspace\project\blog\src\main\resources\com" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\project\blog\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kakarotto" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kakarotto.controller.blogapi" />
+      <recent name="com.kakarotto.config" />
+      <recent name="" />
       <recent name="com.kakarotto" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.MainApplication">
+    <configuration name="MapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <option name="PACKAGE_NAME" value="com.kakarotto" />
+      <option name="MAIN_CLASS_NAME" value="com.kakarotto.MapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <option name="PACKAGE_NAME" value="com.kakarotto" />
+      <option name="MAIN_CLASS_NAME" value="com.kakarotto.MapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testCategoryService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kakarotto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kakarotto" />
+      <option name="MAIN_CLASS_NAME" value="com.kakarotto.MapperTest" />
+      <option name="METHOD_NAME" value="testCategoryService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testMenuMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kakarotto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kakarotto" />
+      <option name="MAIN_CLASS_NAME" value="com.kakarotto.MapperTest" />
+      <option name="METHOD_NAME" value="testMenuMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testUserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <option name="PACKAGE_NAME" value="com.kakarotto" />
+      <option name="MAIN_CLASS_NAME" value="com.kakarotto.MapperTest" />
+      <option name="METHOD_NAME" value="testUserMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testUserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <option name="PACKAGE_NAME" value="com.kakarotto" />
+      <option name="MAIN_CLASS_NAME" value="com.kakarotto.MapperTest" />
+      <option name="METHOD_NAME" value="testUserMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kakarotto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kakarotto" />
+      <option name="MAIN_CLASS_NAME" value="com.kakarotto.MapperTest" />
+      <option name="METHOD_NAME" value="teste" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ssm" />
       <extension name="coverage">
         <pattern>
@@ -78,7 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MainApplication" />
+        <item itemvalue="JUnit.MapperTest.teste" />
+        <item itemvalue="JUnit.MapperTest.testCategoryService" />
+        <item itemvalue="JUnit.MapperTest.testUserMapper" />
+        <item itemvalue="JUnit.MapperTest.testMenuMapper" />
+        <item itemvalue="JUnit.MapperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +256,17 @@
       <workItem from="1679558648879" duration="36000" />
       <workItem from="1679558699080" duration="6000" />
       <workItem from="1679567115535" duration="6697000" />
-      <workItem from="1679585945673" duration="7816000" />
+      <workItem from="1679585945673" duration="18458000" />
+      <workItem from="1679981569650" duration="49298000" />
+      <workItem from="1680190597011" duration="12951000" />
+      <workItem from="1680526786232" duration="6254000" />
+      <workItem from="1681191541491" duration="2938000" />
+      <workItem from="1681203938091" duration="1142000" />
+      <workItem from="1681225074580" duration="524000" />
+      <workItem from="1681226438710" duration="16453000" />
+      <workItem from="1681398760571" duration="18655000" />
+      <workItem from="1681575816589" duration="17312000" />
+      <workItem from="1681631333469" duration="10197000" />
     </task>
     <task id="LOCAL-00001" summary="博客项目">
       <created>1679556913342</created>
@@ -136,5 +307,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="博客项目" />
     <option name="LAST_COMMIT_MESSAGE" value="博客项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.data.redis.core.DefaultValueOperations" memberName="template" />
+        <PinnedItemInfo parentTag="org.springframework.data.redis.core.RedisTemplate" memberName="connectionFactory" />
+        <PinnedItemInfo parentTag="com.kakarotto.pojo.LoginUser" memberName="authorities" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blog$MapperTest_testCategoryService.ic" NAME="MapperTest.testCategoryService Coverage Results" MODIFIED="1681289762886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kakarotto.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -2,21 +2,21 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.kakarotto.mapper.TopicMapper">
+<mapper namespace="com.kakarotto.mapper.ArticleMapper">
     <resultMap id="topicAndUserResultMap" type="Topic">
         <id column="id" property="id"></id>
         <id column="title" property="title"></id>
         <id column="content" property="content"></id>
         <id column="edtext" property="edtext"></id>
-        <id column="topicDate" property="topicDate"></id>
+        <id column="topic_date" property="topicDate"></id>
         <id column="topicType" property="topicType"></id>
         <id column="views" property="views"></id>
         <id column="priority" property="priority"></id>
         <id column="praise" property="praise"></id>
-        <id column="topicType" property="topicType"></id>
+        <id column="topic_type" property="topicType"></id>
         <id column="author" property="author.id"></id>
-        <id column="nickName" property="author.nickName"></id>
-        <id column="headImg" property="author.headImg"></id>
+        <id column="nick_name" property="author.nickName"></id>
+        <id column="head_img" property="author.headImg"></id>
         <id column="email" property="author.email"></id>
         <id column="webstation" property="author.webstation"></id>
     </resultMap>
@@ -31,16 +31,16 @@
         SELECT * FROM topic LEFT JOIN `user` ON topic.author=`user`.id WHERE topic.author = #{arg0} and topic.topicType = #{arg1} and  topic.del = '0' ORDER BY  priority , topicDate DESC
     </select>
     <insert id="addTopic">
-        insert into topic(author,topicType,topicDate,title,content,priority) values(#{arg0},#{arg1},#{arg2},#{arg3},#{arg4},#{arg5})
+        insert into topic(author,topic_type,topic_date,title,content,priority) values(#{arg0},#{arg1},#{arg2},#{arg3},#{arg4},#{arg5})
     </insert>
     <update id="editTopic">
-        update topic set author = #{arg0},topicType = #{arg1} ,topicDate = #{arg2},title = #{arg3},content = #{arg4} ,priority = #{arg6} where id = #{arg5}
+        update topic set author = #{arg0},topic_type = #{arg1} ,topicDate = #{arg2},title = #{arg3},content = #{arg4} ,priority = #{arg6} where id = #{arg5}
     </update>
     <select id="getHotEssay" resultMap="topicAndUserResultMap">
         select * from topic where topic.del = '0' and topic.author = #{arg0} ORDER BY  views DESC LIMIT 5
     </select>
     <select id="getLatestEssay" resultMap="topicAndUserResultMap">
-        select * from topic where topic.del = '0' and topic.author = #{arg0} ORDER BY  topicDate DESC  LIMIT 5
+        select * from topic where topic.del = '0' and topic.author = #{arg0} ORDER BY  topic_date DESC  LIMIT 5
     </select>
 
 

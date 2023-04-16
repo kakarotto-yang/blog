@@ -6,7 +6,7 @@
     <resultMap id="replyAndUserResultMap" type="Reply">
         <id column="id" property="id"></id>
         <id column="content" property="content"></id>
-        <id column="replyDate" property="replyDate"></id>
+        <id column="reply_date" property="replyDate"></id>
         <id column="author" property="author.id"></id>
         <id column="comment" property="comment.id"></id>
         <id column="replyPerson" property="replyPerson.id"></id>
@@ -15,7 +15,7 @@
         select * from reply where comment = #{commentId} and del ='0'
     </select>
     <insert id="addReply">
-        insert into reply(content,comment,replyDate,author,replyPerson) values(#{arg0},#{arg1},#{arg2},#{arg3},#{arg4})
+        insert into reply(content,comment,reply_date,author,replyPerson) values(#{arg0},#{arg1},#{arg2},#{arg3},#{arg4})
     </insert>
 
     <update id="delReply">
